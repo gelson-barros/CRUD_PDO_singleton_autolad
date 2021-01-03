@@ -14,20 +14,24 @@ Que serve para separa a lógica do acesso aos dados
 > Directorios
 
 * App
- * Model
-  * Conexao.php
-  * Produto.php
-  * ProdutoDao.php
+   * Model
+      * Conexao.php
+      * Produto.php
+      * ProdutoDao.php
 * vendor
 * index-php
 * composer.json
 
 
-> Análogia CRUD - Banco de Dados
-_ create - Insert 
-_ read - Select
-_ update - Update
-_ delete - Delete
+> Análogia CRUD com Banco de Dados.
+
+ * create  Insert.
+ 
+ * read  Select.
+ 
+ * update  Update.
+ 
+ * delete  Delete.
 
 Ao fazer esta análogia temos que levar em consideração o modelo de negócio.
 Exemplo Um produto novo ao ser criado na tabela que não existe, é inserido
